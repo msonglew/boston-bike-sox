@@ -21,7 +21,7 @@ body {
 }
 
 #map {
-  width: 100%; /* Adjust width to your desired size */
+  width: 95%; /* Adjust width to your desired size */
   height: 80%; /* Adjust height to your desired size */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for effect */
   border-radius: 10px; /* Optional: rounded corners */
@@ -30,7 +30,7 @@ body {
 #map svg {
   position: absolute;
   z-index: 1;
-  width: 100%;
+  width: 95%;
   height: 100%;
   pointer-events:none;
 
@@ -56,7 +56,7 @@ body {
 
 .legend {
     display: flex;
-    width: 100%;;
+    width: 95%;;
     flex-direction: row;
     justify-content: space-evenly;
     margin-block: 1em;
@@ -75,6 +75,8 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 #departures {
@@ -88,8 +90,6 @@ body {
 #arrivals {
     text-align: right;
 }
-
-
 
 header {
     display: flex;
